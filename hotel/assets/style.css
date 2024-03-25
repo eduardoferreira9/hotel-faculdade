@@ -18,7 +18,7 @@
 }
 
 .background-image1 {
-  background-image: url('Quartos-background.jpg');
+  background-image: url('Quartos-background.png');
   background-size: over;
   background-position: center;
   height: 90vh;
@@ -66,24 +66,24 @@
 .btn-custom {
   margin-top: 25px;
   margin-right: 88px;
+  border-color: 2px white;
 }
 
 .btn-custom.btn-outline-light {
-  border-radius: 10px; 
-  background-color: white;
-  color: #000000 !important;
-  opacity: 0.65;
-  font-weight: 600 !important;
-  border: none;
+  border-radius: 12px; 
+  background-color: #ffffff45;
+  color: #ffffff !important;
+  border-color: #ffffff72;
+  font-weight: 500 !important;
   align-items: center;
   font-size: 18px;
 }
 
 .btn-custom.btn-outline-light:hover {
-  background-color: #D9D8D8 !important; 
-  color: #000000 !important;
-  opacity: 0.65;
-  font-weight: 600 !important;
+  background-color: #ffffff45 !important; 
+  color: #fffffffa !important;
+  font-weight: 500 !important;
+  border-color: #ffffff;
   }
 
 .texto {
@@ -114,6 +114,13 @@ h1 {
   align-items: center;
 }
 
+.barra-preta {
+  width: 5%;
+  height: 1px;
+  background-color: #949494;
+  margin: 0px 0;
+}
+
 .barra {
   width: 50%;
   height: 1px;
@@ -123,7 +130,7 @@ h1 {
 
 .text-custom {
   flex-direction: row;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 550;
 }
 
@@ -160,8 +167,8 @@ h1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 60%;
-  padding-top: 15%;
+  padding-left: 10%;
+  padding-top: 5%;
 }
 
 /* Estilo básico do calendário */
