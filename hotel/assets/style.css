@@ -54,6 +54,11 @@
     width: 100%; 
   }
 
+  .btn-custom {
+    margin-top: 25px;
+    margin-right: 88px;
+  }
+
   .btn-custom.btn-outline-light {
     border-radius: 10px; 
     background-color: white;
