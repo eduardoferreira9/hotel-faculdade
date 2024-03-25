@@ -13,9 +13,9 @@ function createCalendar() {
   const nav = document.createElement('div');
   nav.classList.add('calendar-nav');
   const prevButton = document.createElement('button');
-  prevButton.textContent = 'Prev';
+  prevButton.textContent = 'Antes';
   const nextButton = document.createElement('button');
-  nextButton.textContent = 'Next';
+  nextButton.textContent = 'Próximo';
   nav.appendChild(prevButton);
   nav.appendChild(nextButton);
   calendarElement.appendChild(nav);

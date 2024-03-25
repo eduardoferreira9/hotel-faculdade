@@ -18,7 +18,16 @@
 }
 
 .background-image1 {
-  background-image: url('Backgroun-Quartos.jpg');
+  background-image: url('Quartos-background.jpg');
+  background-size: over;
+  background-position: center;
+  height: 90vh;
+  margin-top: 0; 
+  padding-top: 0; 
+}
+
+.background-image2 {
+  background-image: url('Reserva-background.png');
   background-size: over;
   background-position: center;
   height: 90vh;
@@ -36,59 +45,58 @@
 }
 .nav-custom {
     position: relative;
-  }
+}
 
-  .nav-custom::after {
-    content: ''; 
-    position: absolute; 
-    width: 100%; 
-    height: 2px; 
-    background-color: #FFFFFF; 
-    bottom: 1px; 
-    left: 0; 
-    transition: width 0.3s ease; 
-    width: 0;
-  }
+.nav-custom::after {
+  content: ''; 
+  position: absolute; 
+  width: 100%; 
+  height: 2px; 
+  background-color: #FFFFFF; 
+  bottom: 1px; 
+  left: 0; 
+  transition: width 0.3s ease; 
+  width: 0;
+}
   
-  .nav-link:hover::after {
-    width: 100%; 
+.nav-link:hover::after {
+  width: 100%; 
+}
+
+.btn-custom {
+  margin-top: 25px;
+  margin-right: 88px;
+}
+
+.btn-custom.btn-outline-light {
+  border-radius: 10px; 
+  background-color: white;
+  color: #000000 !important;
+  opacity: 0.65;
+  font-weight: 600 !important;
+  border: none;
+  align-items: center;
+  font-size: 18px;
+}
+
+.btn-custom.btn-outline-light:hover {
+  background-color: #D9D8D8 !important; 
+  color: #000000 !important;
+  opacity: 0.65;
+  font-weight: 600 !important;
   }
 
-  .btn-custom {
-    margin-top: 25px;
-    margin-right: 88px;
-  }
+.texto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 5%;
+}
 
-  .btn-custom.btn-outline-light {
-    border-radius: 10px; 
-    background-color: white;
-    color: #000000 !important;
-    opacity: 0.65;
-    font-weight: 600 !important;
-    border: none;
-    align-items: center;
-    font-size: 18px;
-  }
-
-  .btn-custom.btn-outline-light:hover {
-    background-color: #D9D8D8 !important; 
-    color: #000000 !important;
-    opacity: 0.65;
-    font-weight: 600 !important;
-
-  }
-
-  .texto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 10%;
-    padding-top: 5%;
-  }
-
-  h1 {
-    color: white;
-  }
+h1 {
+  color: white;
+}
 
 .texto-meio {
   display: flex;
