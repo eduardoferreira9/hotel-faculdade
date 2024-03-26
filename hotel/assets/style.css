@@ -10,26 +10,28 @@
 
 .background-image {
   background-image: url('Background.png');
-  background-size: over;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
   margin-top: 0; 
   padding-top: 0; 
 }
 
 .background-image1 {
-  background-image: url('Quartos-background.png');
-  background-size: over;
+  background-image: url('Quartos-background.jpg');
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
-  margin-top: 0; 
-  padding-top: 0; 
+  min-width: 768px;
 }
 
 .background-image2 {
   background-image: url('Reserva-background.png');
-  background-size: over;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
   margin-top: 0; 
   padding-top: 0; 
@@ -64,8 +66,6 @@
 }
 
 .btn-custom {
-  margin-top: 25px;
-  margin-right: 88px;
   border-color: 2px white;
 }
 

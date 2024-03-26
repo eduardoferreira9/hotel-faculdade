@@ -1,6 +1,6 @@
 // Função para criar o calendário
 function createCalendar() {
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
 
   let currentMonth = new Date().getMonth();
   let currentYear = new Date().getFullYear();
@@ -63,7 +63,7 @@ function createCalendar() {
       // Limpa o conteúdo do grid do calendário antes de renderizar
       grid.innerHTML = '';
 
-      const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      const daysOfWeek = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'];
 
       // Cria os cabeçalhos dos dias da semana
       daysOfWeek.forEach(day => {
