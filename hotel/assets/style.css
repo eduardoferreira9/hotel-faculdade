@@ -9,7 +9,7 @@
 }
 
 .background-image {
-  background-image: url('Background.png');
+  background-image: url('Background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,8 +33,46 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
-  margin-top: 0; 
-  padding-top: 0; 
+}
+
+.background-image-quartos {
+  background-image: url('Quartos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.background-image-restaurantes {
+  background-image: url('Restaurante.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.background-image-ribeirao {
+  background-image: url('Ribeirao.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.background-image-porto {
+  background-image: url('PortoFerreira.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.background-image-orlandia {
+  background-image: url('Orlandia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh;
 }
 
 .navbar-custom {
@@ -141,8 +179,7 @@ h1 {
 }
 
 .iframe {
-  height: 103%;  
-  margin-top: -8px; 
+  height: 100%;  
   width:100%;
 }
 
