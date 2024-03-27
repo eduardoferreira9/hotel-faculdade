@@ -104,7 +104,7 @@
     justify-content: end;
     margin-left: 60%; 
     font-weight: 420;
-    font-size: 120%;
+    font-size: 3vh;
     color: white;
 }
 .nav-custom {
@@ -138,7 +138,7 @@
   border-color: #ffffff72;
   font-weight: 500 !important;
   align-items: center;
-  font-size: 18px;
+  font-size: 3vh;
 }
 
 .btn-custom.btn-outline-light:hover {
@@ -148,16 +148,9 @@
   border-color: #ffffff;
   }
 
-.texto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 10%;
-  padding-top: 5%;
-}
-
 h1 {
   color: white;
+  font-size: 32%;
 }
 
 .texto-meio {
@@ -192,13 +185,12 @@ h1 {
 
 .text-custom {
   flex-direction: row;
-  font-size: 30px;
   font-weight: 550;
 }
 
 .text-secondary-custom {
   color: #797878;
-  font-size: 16px;
+  font-size: 2.5vh;
   font-weight: 600;
 }
 
@@ -224,14 +216,17 @@ h1 {
   gap: 30px;
 }
 
-.texto-quartos{
+.texto {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 10%;
-  padding-top: 5%;
+  padding-left: 10vh;
+  padding-top: 25vh;
 }
 
+.h1-background {
+  font-size: 5vh;
+}
 /* Estilo básico do calendário */
 
 .calendar {
