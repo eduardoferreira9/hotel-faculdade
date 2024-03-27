@@ -24,7 +24,6 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
-  min-width: 768px;
 }
 
 .background-image2 {
@@ -40,7 +39,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 40vh;
 }
 
 .background-image-restaurantes {
@@ -48,7 +47,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 40vh;
 }
 
 .background-image-ribeirao {
@@ -56,7 +55,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 40vh;
 }
 
 .background-image-porto {
@@ -64,7 +63,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: vh;
+  height: 40vh;
 }
 
 .background-image-orlandia {
@@ -72,7 +71,32 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 40vh;
+}
+
+.background-image-quarto1 {
+  background-image: url('Quarto1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+}
+
+.background-image-quarto2 {
+  background-image: url('Quarto2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+}
+
+.background-image-quarto3 {
+  background-image: url('Quarto3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  width: auto;
 }
 
 .navbar-custom {
