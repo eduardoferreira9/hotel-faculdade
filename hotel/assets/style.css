@@ -222,6 +222,7 @@ h1 {
 .icones {
   display: flex;
   gap: 30px;
+  cursor: pointer;
 }
 
 .texto-quartos{
