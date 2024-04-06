@@ -291,3 +291,27 @@ h1 {
 .calendar-nav button:hover {
   background-color: #0056b3;
 }
+
+.modal-content-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  color: white;
+}
