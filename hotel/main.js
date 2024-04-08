@@ -227,10 +227,8 @@ function adicionarNaTabela() {
     document.getElementById("enviarButton").addEventListener("click", adicionarNaTabela);
   });
 
-  function openLoginModal() {
-    $('#loginModal').modal('show');
-  }
-
-  function closeLoginModal() {
-    $('#loginModal').modal('hide');
-  }
+  $(document).ready(function(){
+    $("#loginLink").click(function(){
+      $("#loginModal").modal('show');
+    });
+  });
