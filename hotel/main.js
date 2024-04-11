@@ -232,3 +232,45 @@ function adicionarNaTabela() {
       $("#loginModal").modal('show');
     });
   });
+
+  // Função para coletar os dados da tabela e os dias selecionados no calendário
+function enviarParaBancoDeDados() {
+  // Coletar dados da tabela
+  var tabelaData = [];
+  var table = document.getElementById("minhaTabela").getElementsByTagName('tbody')[0];
+  for (var i = 0; i < table.rows.length; i++) {
+      var rowData = [];
+      for (var j = 0; j < table.rows[i].cells.length; j++) {
+          rowData.push(table.rows[i].cells[j].innerHTML);
+      }
+      tabelaData.push(rowData);
+  }
+
+  // Coletar dias selecionados no calendário
+  var diasSelecionados = [];
+  var selectedCells = document.querySelectorAll('.calendar-cell.selected');
+  selectedCells.forEach(cell => {
+      diasSelecionados.push(parseInt(cell.textContent));
+  });
+
+  // Aqui você deve enviar os dados para o seu backend
+  // Por exemplo, usando AJAX para enviar os dados para um servidor
+  // Neste exemplo, estou apenas exibindo os dados no console e uma mensagem de confirmação
+  console.log("Dados da tabela:", tabelaData);
+  console.log("Dias selecionados:", diasSelecionados);
+
+  // Simulando uma reserva bem-sucedida (você precisa implementar a lógica real)
+  var reservaBemSucedida = true;
+
+  if (reservaBemSucedida) {
+      alert("Reserva bem-sucedida! Sua reserva foi confirmada.");
+  } else {
+      alert("Houve um problema ao processar sua reserva. Por favor, tente novamente mais tarde.");
+  }
+
+  // Limpar seleção após o envio
+  clearSelection();
+}
+
+// Adicione um evento de clique ao botão
+document.getElementById("enviarParaBancoButton").addEventListener("click", enviarParaBancoDeDados);
