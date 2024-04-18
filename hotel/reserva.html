@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -65,7 +65,7 @@
               <input type="text" class="form-control" id="name" placeholder="Nome" style="background-color: rgba(128, 175, 236, 0.7); border: none; border-radius: 10px; color: white; box-shadow: none; font-size: 15px; width: 100%;">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control" id="password" placeholder="Senha" style="background-color: rgba(128, 175, 236, 0.7); border: none; border-radius: 10px; color: white; box-shadow: none; font-size: 15px; width: 100%">
+              <input type="password" class="form-control form-custom" id="password" placeholder="Senha" style="background-color: rgba(128, 175, 236, 0.7); border: none; border-radius: 10px; color: white; box-shadow: none; font-size: 15px; width: 100%">
             </div>
             <div class="form-group flex-row align-items-center">
               <input type="checkbox" id="sim" name="interesse" value="nao"/>
@@ -98,7 +98,7 @@
   </div>
 
 <!-- Calendario -->      
-          <div class="row" style="align-items: center;">
+          <div class="row mt-2" style="align-items: center;">
             <div class="col-lg-6 col-md-3" style="padding: 35px;"> 
               <div id="calendar" class="calendar"></div> 
             </div>
@@ -139,7 +139,7 @@
                     </div>
                   </div>
                 </fieldset>
-                <button type="button" id="enviarButton" class="btn btn-primary">Enviar</button>
+                <button type="button" id="enviarButton" class="btn btn-primary mb-2">Enviar</button>
               </form>
               
               <table id="minhaTabela" class="table">
@@ -155,7 +155,7 @@
                   <!-- Aqui serão adicionadas as linhas dinamicamente -->
                 </tbody>
               </table>
-              <button type="button" id="enviarParaBancoButton" class="btn btn-primary">Reserve Já</button>
+              <button type="button" id="enviarParaBancoButton" class="btn btn-primary mb-2">Reserve Já</button>
             </div>
             
             
