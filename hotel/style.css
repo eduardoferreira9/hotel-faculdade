@@ -8,6 +8,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .background-image {
   background-image: url('index/imagens/Background.jpg');
   background-size: cover;
@@ -48,6 +52,8 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh;
+  margin-top: 0; 
+  padding-top: 0; 
 }
 
 .background-image-ribeirao {
@@ -196,7 +202,7 @@ h1 {
 
 .iframe {
   height: 100%;  
-  width:100%;
+  width: 100%;
 }
 
 .footer {
