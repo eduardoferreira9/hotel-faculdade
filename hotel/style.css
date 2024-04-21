@@ -39,7 +39,7 @@ html {
 }
 
 .background-image-quartos {
-  background-image: url('quartos/imagens/Quartos.jpg');
+  background-image: url('quartos/imagens/Fotoquartoindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ html {
 }
 
 .background-image-restaurantes {
-  background-image: url('index/imagens/Restaurante.jpg');
+  background-image: url('index/imagens/Restaurente.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
