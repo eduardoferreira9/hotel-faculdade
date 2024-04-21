@@ -52,8 +52,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   height: 40vh;
-  margin-top: 0; 
-  padding-top: 0; 
 }
 
 .background-image-ribeirao {
@@ -320,3 +318,10 @@ input[type="password"]::placeholder {
   color: white;
 }
 
+.icons {
+  transition: transform 0.1s ease;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
