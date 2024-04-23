@@ -110,6 +110,7 @@ html {
     font-weight: 420;
     font-size: 3vh;
     color: white;
+    text-shadow: #000 1px 2px 1px;
 }
 .nav-custom {
     position: relative;
@@ -133,6 +134,7 @@ html {
 
 .btn-custom {
   border-color: 2px white;
+  box-shadow: #000 1px 2px 1px;
 }
 
 .btn-custom.btn-outline-light {
@@ -143,6 +145,7 @@ html {
   font-weight: 500 !important;
   align-items: center;
   font-size: 3vh;
+  text-shadow: #000 1px 2px 1px;
 }
 
 .btn-custom.btn-outline-light:hover {
