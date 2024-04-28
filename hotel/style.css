@@ -13,7 +13,7 @@ html {
 }
 
 .background-image {
-  background-image: url('index/imagens/Background.jpg');
+  background-image: url('index/imagens/Background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +110,6 @@ html {
     font-weight: 420;
     font-size: 3vh;
     color: white;
-    text-shadow: #000 1px 2px 1px;
 }
 .nav-custom {
     position: relative;
@@ -134,7 +133,6 @@ html {
 
 .btn-custom {
   border-color: 2px white;
-  box-shadow: #000 1px 2px 1px;
 }
 
 .btn-custom.btn-outline-light {
@@ -145,7 +143,6 @@ html {
   font-weight: 500 !important;
   align-items: center;
   font-size: 3vh;
-  text-shadow: #000 1px 2px 1px;
 }
 
 .btn-custom.btn-outline-light:hover {
@@ -328,3 +325,4 @@ input[type="password"]::placeholder {
 .icons:hover {
   transform: scale(1.2);
 }
+
