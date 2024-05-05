@@ -8,10 +8,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 .background-image {
   background-image: url('index/imagens/Background.png');
   background-size: cover;
@@ -326,3 +322,17 @@ input[type="password"]::placeholder {
   transform: scale(1.2);
 }
 
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
+#main1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#main2 {
+  display: flex;
+  flex-direction: row;
+}
