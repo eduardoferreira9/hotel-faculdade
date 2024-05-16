@@ -274,3 +274,29 @@ function enviarParaBancoDeDados() {
 
 // Adicione um evento de clique ao botão
 document.getElementById("enviarParaBancoButton").addEventListener("click", enviarParaBancoDeDados);
+
+ // Função para abrir o popup quando o link for clicado
+ document.getElementById("openPopup").addEventListener("click", function(event) {
+  event.preventDefault(); // Evita que o link seja seguido
+  document.getElementById("contactPopup").style.display = "block";
+});
+
+// Função para fechar o popup quando o botão "Fechar" for clicado
+document.getElementById("closePopup").addEventListener("click", function() {
+  document.getElementById("contactPopup").style.display = "none";
+});
+
+// Modal contato
+  $(document).ready(function(){
+    $('#contactModal').on('shown.bs.modal', function () {
+      // Focus no primeiro campo (se houver)
+    })
+  });
+
+
+function inicializarMapa() {
+    var mapa = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -23.5505, lng: -46.6333}, // Coordenadas do centro do mapa
+        zoom: 12 // Zoom do mapa
+    });
+}
