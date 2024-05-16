@@ -333,3 +333,53 @@ input[type="password"]::placeholder {
   display: flex;
   flex-direction: row;
 }
+
+.btn-custom {
+  background-color: transparent;
+  color: #6c757d; /* Cor de letra */
+  border: none;
+  text-align: left; /* Alinhamento do texto */
+  padding: 0;
+}
+
+.contact-button {
+  margin-top: 0.5rem; /* Ajuste conforme necessário */
+  background-color: transparent;
+    color: #6c757d; /* Cor de letra */
+    border: none;
+    text-align: left; /* Alinhamento do texto */
+    padding: 0;
+
+}
+
+.contact-button:focus, .contact-button {
+  color: #6c757d; /* Cor de letra ao passar o mouse */
+  background-color: transparent; /* Cor de fundo ao passar o mouse */
+}
+
+.button-class {
+  color: #6c757d;
+  width: 100%;
+  font-size: 1.8vh;
+  font-weight: 400;
+  background-color: transparent;
+  border: transparent;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  display: block;
+  
+}
+
+.button-class:hover {
+  color:  #ffffff33; /* Cor do texto ao passar o mouse */
+}
+
+.modal-body{
+  text-align: center;
+  font-size: 18px;
+  color: #2c3138;
+  font-weight: 600;
+
+}
