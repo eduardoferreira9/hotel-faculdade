@@ -163,30 +163,141 @@
 <!-- Rodapé --> 
 <footer class="footer">
   <nav class="hrefs1 d-flex justify-content-start d-flex align-items-center">
-    <a class="nav-link active text-secondary" aria-current="page" href="#">Sobre</a>
-    <a class="nav-link text-secondary" href="#">Mapa</a>
-    <a class="nav-link text-secondary" href="#">Termos e condições</a>
-    <a class="nav-link text-secondary" href="#">Contato</a>
+    <a> <button type="button" class="button-class" data-toggle="modal" data-target="#SobreModal">Sobre</button> </a>
+    <a> <button type="button" class="button-class" data-toggle="modal" data-target="#MapModal">Mapa</button> </a>
+    <a> <button type="button" class="button-class" data-toggle="modal" data-target="#TermModal">Termos e condições</button> </a>
+    <a> <button type="button" class="button-class" data-toggle="modal" data-target="#contactModal">Contato</button> </a>
+    
   </nav>
-            
+<!-- Modal Contato --> 
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialogmodal-dialog-centered d-flex justify-content-center align-items-center" role="document">
+    <div class="modal-content modal-content-centered text-dark" style="border-radius: 40px; background-color: rgba(223, 232, 245, 0.753); filter: drop-shadow(1px 4px 8px rgba(74, 147, 243, 0.55)); border: none; width: 80%;">
+      <div class="modal-header" style="border-bottom-width: 0px;">
+        <h5 class="modal-title" id="contactModalLabel" style="text-align: center;">Contatos</h5>
+      </div>
+      <div class="modal-body">
+        <!-- Adicione as informações de contato aqui -->
+        <p>Instagram: @serenityhavenhotel</p>
+        <p>Telefone: 19 997857222</p>
+        <p>Email: serenityhavenhotel@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Termo --> 
+<div class="modal fade" id="TermModal" tabindex="-1" role="dialog" aria-labelledby="TermModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialogmodal-dialog-centered d-flex justify-content-center align-items-center" role="document">
+    <div class="modal-content modal-content-centered text-dark" style="border-radius: 40px; background-color: rgba(223, 232, 245, 0.753); filter: drop-shadow(1px 4px 8px rgba(74, 147, 243, 0.55)); border: none; width: 90%;">
+      <div class="modal-header" style="border-bottom-width: 0px;">
+        <h5 class="modal-title" id="TermModalLabel" style="text-align: center;">Termos de uso</h5>
+      </div>
+      <div class="modal-Termbody"> <!-- termos e condições-->
+        <!-- Adicione as informações de contato aqui -->
+<ol>
+    <li>
+        <strong>Aceitação dos Termos de Uso</strong>
+        <p>Ao acessar ou utilizar o site do Serenity Haven Hotel, você concorda em cumprir estes Termos de Uso e todas as leis e regulamentos aplicáveis. Se você não concordar com algum destes termos, não está autorizado a utilizar ou acessar este site.</p>
+    </li>
+    <li>
+        <strong>Uso do Conteúdo</strong>
+        <p>Todo o conteúdo deste site, incluindo textos, imagens, logotipos, designs e outros materiais, são propriedade do Serenity Haven Hotel ou de seus licenciadores e estão protegidos por leis de direitos autorais e outras leis de propriedade intelectual. Você concorda em usar o conteúdo apenas para fins informativos e não comerciais.</p>
+    </li>
+    <li>
+        <strong>Reservas e Cancelamentos</strong>
+        <p>As reservas feitas através deste site estão sujeitas à disponibilidade e aos termos e condições de reserva do Serenity Haven Hotel. Quaisquer políticas de cancelamento e reembolso serão aplicadas de acordo com os termos estabelecidos pelo hotel.</p>
+    </li>
+    <li>
+        <strong>Privacidade</strong>
+        <p>O Serenity Haven Hotel respeita a privacidade dos usuários deste site. Ao utilizar este site, você concorda com a coleta e o uso de suas informações pessoais de acordo com nossa Política de Privacidade.</p>
+    </li>
+    <li>
+        <strong>Links para Sites de Terceiros</strong>
+        <p>Este site pode conter links para sites de terceiros. Esses links são fornecidos apenas para conveniência dos usuários e não implicam em endosso ou responsabilidade pelo conteúdo desses sites.</p>
+    </li>
+    <li>
+        <strong>Limitação de Responsabilidade</strong>
+        <p>Em nenhuma circunstância o Serenity Haven Hotel, seus afiliados, funcionários, agentes ou fornecedores serão responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos resultantes do uso ou da incapacidade de usar este site.</p>
+    </li>
+    <li>
+        <strong>Alterações nos Termos de Uso</strong>
+        <p>O Serenity Haven Hotel se reserva o direito de modificar estes Termos de Uso a qualquer momento. Quaisquer alterações entrarão em vigor imediatamente após a publicação dos termos revisados neste site.</p>
+    </li>
+</ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Mapa --> 
+<div class="modal fade" id="MapModal" tabindex="-1" role="dialog" aria-labelledby="MapModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialogmodal-dialog-centered d-flex justify-content-center align-items-center" role="document">
+    <div class="modal-content modal-content-centered text-dark" style="border-radius: 40px; background-color: rgba(223, 232, 245, 0.753); filter: drop-shadow(1px 4px 8px rgba(74, 147, 243, 0.55)); border: none; width: 80%; height: 100%;">
+      <div class="modal-header" style="border-bottom-width: 0px;">
+        <h5 class="modal-title" id="MapModalLabel" style="text-align: center;">Localização</h5>
+      </div>
+      <div class="modal-body">
+        <p>Ribeirão Preto: R. Princesa Isabel, 584 - Campos Elísios </p>
+        <p>Porto Ferreira: R. Donal Balbina, 452 - Centro </p>
+        <p>Orlândia: R. Um, 22 - Centro  </p>
+        <div class="Mapsmodal" style="height: auto;">
+          <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.493397524537!2d-47.76052952573772!3d-21.212274679514547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bec40358b175%3A0xb9a8999a4ebc7cb3!2sRoyal%20Tulip%20JP%20Ribeir%C3%A3o%20Preto!5e0!3m2!1spt-BR!2sbr!4v1710435739561!5m2!1spt-BR!2sbr" width="80%" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+<!-- Modal Sobre --> 
+<div class="modal fade" id="SobreModal" tabindex="-1" role="dialog" aria-labelledby="SobreModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+    <div class="modal-content text-dark" style="border-radius: 40px; background-color: rgba(223, 232, 245, 0.753); filter: drop-shadow(1px 4px 8px rgba(74, 147, 243, 0.55)); border: none;">
+      <div>
+        <h5 class="modal-title" id="SobreModalLabel">Sobre o Serenity Haven Hotel</h5>
+      </div>
+      <div class="modal-body" style="padding: 30px; text-align: center;">
+        <!-- Adicione as informações de contato aqui -->
+        
+        <p>Aninhado nas encantadoras cidades de Ribeirão Preto, Porto Ferreira e Hortolândia, o Serenity Haven Hotel emerge como um oásis de tranquilidade e sofisticação, fundado em 2023 por cinco amigos visionários: João, Eduardo, Rodrigo, Felipe e Mateus. Unidos por uma paixão compartilhada por hospitalidade excepcional e pela beleza serena da natureza, eles transformaram sua visão em realidade, dando vida a um refúgio de classe mundial que transcende as expectativas dos viajantes mais exigentes.</p>
+        <p>A história do Serenity Haven Hotel é uma jornada inspiradora de amizade, determinação e amor pela arte de receber. Inicialmente concebido como um sonho compartilhado entre amigos, o hotel rapidamente se tornou um ponto de referência na região, graças à sua atmosfera acolhedora, serviços impecáveis e atenção aos detalhes.</p>
+        <p>Cada propriedade do Serenity Haven, seja em Ribeirão Preto, Porto Ferreira ou Hortolândia, é uma celebração da rica herança cultural e da exuberante paisagem que rodeia essas encantadoras cidades. Dos jardins exuberantes aos elegantes interiores, cada elemento foi cuidadosamente projetado para oferecer uma experiência de estadia verdadeiramente memorável.</p>
+        <p>O legado do Serenity Haven Hotel é marcado não apenas por sua excelência em hospitalidade, mas também por seu compromisso com a comunidade local e o meio ambiente. A equipe dedicada do hotel trabalha em estreita colaboração com organizações locais para promover práticas sustentáveis e apoiar iniciativas de responsabilidade social, garantindo que cada visita ao Serenity Haven seja uma experiência enriquecedora para os hóspedes e para a comunidade em geral.</p>
+        <p>Venha se perder nos encantos do Serenity Haven Hotel e descubra uma nova dimensão de relaxamento, inspiração e serenidade. Aqui, cada momento é uma celebração da vida e da beleza que nos rodeia, e cada hóspede é recebido com o caloroso abraço de velhos amigos.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 <!-- Icons -->
 <nav class="icones col-lg-2 flex-row">
-  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp text-secondary icons" viewBox="0 0 16 16">
-    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
-  </svg>
+  <a href="https://web.whatsapp.com/" target="_blank" class="mr-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp text-secondary icons" viewBox="0 0 16 16">
+      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+    </svg>
+  </a>
 
-  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram text-secondary icons" viewBox="0 0 16 16">
-    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-  </svg>icons
+  <a href="https://www.instagram.com/" target="_blank" class="mr-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram text-secondary icons" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+    </svg>
+  </a>
 
-  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook text-secondary icons" viewBox="0 0 16 16">
-    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-  </svg>
+  <a href="https://www.facebook.com/" target="_blank" class="mr-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook text-secondary icons" viewBox="0 0 16 16">
+      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+    </svg>
+  </a>
 
-  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x text-secondary icons" viewBox="0 0 16 16">
-    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75ZM8.264 5.08l.975-1.195-2.055-.03.062.062.5.634-.47.5.093.088.47-.5.547-.658-.015.016.952.658.453.41.594h-.093l-1.086-1.344.937-.108-.985-.97Z"/>
-  </svg>
+  <a href="https://twitter.com/?lang=pt-br" target="_blank" class="mr-3">
+    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x text-secondary icons" viewBox="0 0 16 16">
+      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75ZM8.264 5.08l.975-1.195-2.055-.03.062.062.5.634-.47.5.093.088.47-.5.547-.658-.015.016.952.658.453.41.594h-.093l-1.086-1.344.937-.108-.985-.97Z"/>
+    </svg>
+  </a>
 </nav>
 </footer>
 </main>
